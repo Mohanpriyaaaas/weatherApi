@@ -15,26 +15,26 @@ public class Weather {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private LocalDateTime datetimeUtc;   // datetime_utc
-    private String conds;                // _conds
-    private Double dewptm;               // _dewptm
-    private Integer fog;                 // _fog
-    private Integer hail;                // _hail
-    private Double heatindexm;           // _heatindexm
-    private Double hum;                  // _hum
-    private Double precipm;              // _precipm
-    private Double pressurem;            // _pressurem
-    private Integer rain;                // _rain
-    private Integer snow;                // _snow
-    private Double tempm;                // _tempm
-    private Integer thunder;             // _thunder
-    private Integer tornado;             // _tornado
-    private Double vism;                 // _vism
-    private Double wdird;                // _wdird
-    private String wdire;                // _wdire
-    private Double wgustm;               // _wgustm
-    private Double windchillm;           // _windchillm
-    private Double wspdm;                // _wspdm
+    private LocalDateTime datetimeUtc;   
+    private String conds;                
+    private Double dewptm;               
+    private Integer fog;                 
+    private Integer hail;                
+    private Double heatindexm;           
+    private Double hum;                  
+    private Double precipm;              
+    private Double pressurem;            
+    private Integer rain;                
+    private Integer snow;                
+    private Double tempm;                
+    private Integer thunder;             
+    private Integer tornado;             
+    private Double vism;                 
+    private Double wdird;               
+    private String wdire;               
+    private Double wgustm;               
+    private Double windchillm;           
+    private Double wspdm;                
 
 
     public Long getId() {
